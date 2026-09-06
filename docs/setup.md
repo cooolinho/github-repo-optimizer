@@ -54,14 +54,27 @@ The source is named in parentheses.
 ### Setting up the project token
 
 ```bash
+
 cp config/token.env.example config/token.env
+cp config/settings.env.example config/settings.env
+cp config/skiplist.txt.example config/skiplist.txt
+
 chmod 600 config/token.env
+chmod 600 config/settings.env
+chmod 600 config/skiplist.txt
+
 ```
 
 Edit `config/token.env`:
 
 ```
 GH_TOKEN=ghp_your_token_here
+```
+
+Edit `config/settings.env`:
+
+```
+GH_OWNER=your_github_username
 ```
 
 That file is gitignored and must never be committed.
