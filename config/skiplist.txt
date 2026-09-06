@@ -1,0 +1,14 @@
+# Repositories excluded from optimization.
+# One repository name per line. Lines starting with # are comments.
+# Glob patterns are supported, e.g.  test-*  or  *-archive
+#
+# Note: forks and archived repositories are already excluded via
+# SKIP_FORKS / SKIP_ARCHIVED in config/settings.env. Listing them here
+# is only needed if you turn those flags off.
+#
+# Known forks (excluded via SKIP_FORKS=true):
+#   OmniRoute
+#   docker-TimeTracker
+#
+# Add your own exclusions below:
+cooolinho

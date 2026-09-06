@@ -1,0 +1,17 @@
+# Cloned repositories - never commit these
+workspace/
+
+# Runtime state
+state/
+
+# Local config overrides
+config/settings.local.env
+
+# Project token - never commit
+config/token.env
+
+# Editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
