@@ -68,11 +68,9 @@ git clone https://github.com/cooolinho/github-repo-optimizer.git
 cd github-repo-optimizer
 
 cp config/token.env.example config/token.env
-cp config/settings.env.example config/settings.env
 cp config/skiplist.txt.example config/skiplist.txt
 
 chmod 600 config/token.env
-chmod 600 config/settings.env
 chmod 600 config/skiplist.txt
 
 # Token in config/token.env eintragen, dann:
